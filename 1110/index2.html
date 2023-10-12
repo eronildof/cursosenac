@@ -9,19 +9,47 @@
   <h1>Faça o seu Agendamneto com pelo menos 48 horas de antecedênca</h1> 
   <fieldset>
     <legend> Identificação do dono do aniamal</legend>
-    <label>Nome:</label>   <input type=""><br>
-    <label>Endereço</label>  <input type=""><br>
-    <label> CEP:</label>  <input type=""><br>
-    <label>Tel Cel</label> <input type=""><br>
+    <label>Nome:</label>   <input type="text" placeholder="Digite o nome Completo do animal" size="50"> <br>
+    <br>
+    <label>Endereço</label>  <input type="text" placeholder="digite o endereço"><br>
+    <br>
+    <label> CEP:</label>  <input type="" placeholder="XXXXX-XXX"> <br>
+    <br>
+    <label>Email:</label> <input type="" placeholder=" Digite o endereço de email"><br>
+    <br>
+    <label>Tel Cel</label> <input type="" placeholder="99 99999 9999"><br>
+    <br>
 </fieldset>
 
 <fieldset>
     <legend>Animal</legend>
-    <label>Nome:</label><input type="Nome"><br>
-    <label>Porte do Cão:</label> <input type="radio" value="html" checked> Pequeno <input type="radio"> Médio <input type="radio"> Grande <br>
-    <label>Tipo de Tosa</label> <input type="">
+    <label>Nome:</label><input type="Nome" placeholder="digite o nome do animal"><br>
+    <br>
+    <label>Porte do Cão:</label> 
+    <input type="radio" name="porte"> Pequeno 
+    <input type="radio" name="porte"> Médio 
+    <input type="radio" name="porte" checked> Grande <br>
+    <br>
+    <label>Tipo de Tosa</label> <input type="number"><br>
+    <br>
     
-</fieldset>
+    <label>Observações</label><textarea name="number" placeholder="digite alguma informação sobre o animal"></textarea> 
+    <br>
+  </fieldset>
+
+    <fieldset>
+        <legend>Horario (Não atendemos de domingo e Segunda feira)</legend>
+        <p>Identifique os dias da semana de sua preferência</p>
+        <input type="checkbox"> <label>Terça feira</label> <input type="checkbox"> <label>Quarta feira</label> <input type="checkbox"> <label>Quinta feira</label> <input type="checkbox"> <label>Sexta feira</label> <input type="checkbox"> <label>Sábado</label> <br>
+        <br>
+        <label>Primeira opção de horário</label> <input type="date"><br>
+        <br>
+        <label>Segunda opção de horário</label> <input type="date">
+     </fieldset>
+    <input type="submit">
+    <p>Atendimento: atendimento@meuamigocaopetshop.com • (0xx) 99999 - 9999 / (0xx) 88888 - 8888</p>
+    
+
     
 </body>
 </html>
